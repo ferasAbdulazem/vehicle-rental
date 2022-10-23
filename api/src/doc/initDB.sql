@@ -13,8 +13,8 @@ CREATE TABLE Customers (
 
 ) COLLATE=utf8_unicode_ci;
 
-DROP TABLE IF EXISTS Cars;
-CREATE TABLE Cars (
+DROP TABLE IF EXISTS Vehicles;
+CREATE TABLE Vehicles (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   title VARCHAR(300) NOT NULL,
   numberPlate VARCHAR(100) NOT NULL,
@@ -30,13 +30,13 @@ CREATE TABLE Cars (
 CREATE TABLE Rentals (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   customerID INT NOT NULL,
-  carID INT NOT NULL,
+  vehicleID INT NOT NULL,
   rentalStartAt TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   plannedRentalEndAt TIMESTAMP NOT NULL,
   comment VARCHAR(500), 
   kilometrage FLOAT,
-  reurnedAT TIMESTAMP,
+  returnedAT TIMESTAMP,
 
   FOREIGN KEY (customerID) REFERENCES Customers(id),
-  FOREIGN KEY (carID) REFERENCES Cars(id)
+  FOREIGN KEY (vehicleID) REFERENCES Vehicles(id)
 ) COLLATE=utf8_unicode_ci;
