@@ -4,6 +4,6 @@ export interface ICustomer {
   address: string;
   phoneNumber: string;
   email: string;
-  createdAt: Date;
+  createdAt: string;
   isActive: boolean;
 }

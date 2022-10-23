@@ -6,6 +6,8 @@ export interface IRental {
   customer: ICustomer;
   vehicle: IVehicle;
   comment: string;
-  rentalStartAt: Date;
-  rentalEndAt: Date;
+  rentalStartAt: string;
+  plannedRentalEndAt: string;
+  kilometrage: number;
+  returnedAT?: string
 }

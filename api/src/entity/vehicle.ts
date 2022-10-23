@@ -6,6 +6,6 @@ export interface IVehicle {
   brand: string;
   model: string;
   modelYear: number;
-  createdAt: Date ;
+  createdAt: string;
   isActive: boolean;
 }
