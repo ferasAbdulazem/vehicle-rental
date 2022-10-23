@@ -1,4 +1,4 @@
-import { ICustomer } from '../../../Entity/customer';
+import { ICustomer } from '../../../entity/customer';
 import { query } from '../../db';
 
 export default async function upsertCustomer(customer: ICustomer) {

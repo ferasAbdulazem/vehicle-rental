@@ -1,4 +1,4 @@
-import { ICustomer } from '../../../Entity/customer';
+import { ICustomer } from '../../../entity/customer';
 import { query } from '../../db';
 
 const FETCH_SINGLE_CUSTOMER = 'SELECT * FROM Customers cu WHERE cu.id= ?';
