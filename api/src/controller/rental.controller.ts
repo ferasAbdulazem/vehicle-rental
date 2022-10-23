@@ -8,7 +8,7 @@ const logger = getLogger('Controller:Rental');
 const rentalController = express.Router();
 
 rentalController.get('/', async (_, res) => {
-  logger.info('/rental');
+  logger.info('/rentals');
 
   return res.json(await fetchAllRentals());
 });
@@ -24,3 +24,5 @@ rentalController.post('/create', async (req, res) => {
 
   return res.json(true);
 });
+
+export default rentalController;
