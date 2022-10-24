@@ -5,7 +5,8 @@
   "author": "Feras Abdulazem",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon -e ts -x node --inspect=0.0.0.0:9229  -r ts-node/register src/index.ts"
+    "dev": "nodemon -e ts -x node --inspect=0.0.0.0:9229  -r ts-node/register src/index.ts",
+    "build": "yarn && rimraf build && tsc"
   },
   "dependencies": {
     "body-parser": "^1.20.1",
