@@ -46,7 +46,7 @@ yarn
 yarn dev
 ```
 
-- create the DB and its tables using the sql scripts defined under [doc/database](/doc/database)
+- create the DB and its tables using the sql scripts defined under [doc/database](/api/doc/database)
 
 ## Client
 
