@@ -1,7 +1,7 @@
 # Vehicle Rental
 
 - **By:** Feras Abdulazem <feras.abdulazem@gmail.com>
-- **URL:** TBA
+- **URL:** https://www.vehicle-rental-ferchau.tk/
 
 ## Requirements
 
@@ -84,3 +84,7 @@ yarn dev
 ## Code Quality:
 
 This project uses [ESLint](https://eslint.org/) to enforce a certain code style; and uses the [Airbnb style](https://github.com/airbnb/javascript) as a style guide line
+
+## Server
+
+hosted on a [Contabo VPS](https://contabo.com/de/vps/)
