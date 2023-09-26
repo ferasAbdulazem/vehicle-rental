@@ -1,7 +1,7 @@
 # Vehicle Rental
 
 - **By:** Feras Abdulazem <feras.abdulazem@gmail.com>
-- **URL:** https://www.vehicle-rental-ferchau.tk/
+- **URL:** 
 
 ## Requirements
 
